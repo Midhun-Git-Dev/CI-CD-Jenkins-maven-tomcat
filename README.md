@@ -31,8 +31,17 @@ is automatically built and deployed to Apache Tomcat using Jenkins.
 - ngrok used to expose local Jenkins server
 - GitHub webhook configured to trigger Jenkins automatically
 
-## 📸 Screenshots
-(Add Jenkins job success + deployed UI screenshots)
+## Screenshots
+
+### Jenkins Pipeline Success
+![Pipeline Success](CI-CD-Snaps/jenkins-pipeline-success.png)
+
+### GitHub Webhook Trigger
+![Webhook](CI-CD-Snaps/github-webhook-trigger.png)
+
+### Tomcat Deployment
+![Deployment](CI-CD-Snaps/tomcat-deploy-success.png)
+
 
 ## 🚀 Future Enhancements
 - Add staging and production environments
